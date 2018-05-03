@@ -1,0 +1,20 @@
+server:
+  port: 80
+
+spring:
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    pool:
+      max-idle: 20
+
+wechat:
+  appid: abcdef
+  secret: abcdef
+  grantType: authorization_code
+  authorizeUrl: https://open.weixin.qq.com/connect/oauth2/authorize?appid=%1$s&redirect_uri=%2$s&response_type=code&scope=snsapi_base&state=%3$s#wechat_redirect
+  apiHost: https://api.weixin.qq.com
+
+authSys:
+  returnUrl: http://www.lyu-tech.com.cn/oauth2/wechat/notifyUrl?key=%1$s
+  redirectUrl: http://%1$s:%2$s%3$s?code=%4$s

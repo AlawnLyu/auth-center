@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/auth-center/auth-center.iml" filepath="$PROJECT_DIR$/auth-center/auth-center.iml" />
+      <module fileurl="file://$PROJECT_DIR$/simulate-app/simulate-app.iml" filepath="$PROJECT_DIR$/simulate-app/simulate-app.iml" />
+    </modules>
+  </component>
+</project>
